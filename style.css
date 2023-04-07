@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.NAV{
+    margin: 1rem;
+     height: 1rem !important;
+     /* position: fixed !important; */
+     z-index: 1000 !important;
+     width: 100% !important;
+} 
+.nav{
+background-color:blueviolet !important;
+}
+#Home .home{
+    height: 80vh;
+    background-image: url(doctor\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+.icon{
+    font-size: 3rem;
+}
+.cardbtn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.cardbtn button{
+    border-radius:50px !important;
+}
+.card{
+    height: 22rem !important ;
+}
+#Service{
+    background-color: cyan;
+}
+.card{
+    background-color: transparent !important;
+    box-shadow: 2px 3px 5px gray;
+}
+.contact{
+    /* border: 2px solid red; */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    background-color:rgb(77, 137, 77);
+}
+footer{
+    background-color: black;
+    height: 5rem;
+    color: white;
+    text-align: center;
+}
+.nav{
+    /* position: fixed !important; */
+    z-index: 10001 !important;
+    width: 100% !important;
+}
+#About{
+    padding: 2rem;
+}
